@@ -1,0 +1,41 @@
+* {
+  font-family: Wanted Sans;
+  margin: 0;
+  padding: 0;
+  color: var(--Text-OnPrimary);
+}
+
+html,
+body {
+  width: 100%;
+  height: max(calc(var(--vh, 1vh) * 100 - 16px), 100%);
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: var(--Gray-90);
+}
+
+#root {
+  height: 100%;
+}
+
+:root {
+  --Gray-10: #ffffff;
+  --Gray-20: #f0f2f5;
+  --Gray-30: #e6e9f0;
+  --Gray-40: #c9ced6;
+  --Gray-50: #929bad;
+  --Gray-60: #5d677a;
+  --Gray-70: #31353d;
+  --Gray-80: #212329;
+  --Gray-90: #16171a;
+  --Gray-100: #000000;
+
+  --Blue-10: #006fff;
+
+  --Text-Primary: var(--Blue-10);
+  --Text-OnPrimary: var(--Gray-10);
+  --Text-OnColor: var(--Gray-10);
+  --Text-10: var(--Gray-80);
+  --Text-20: var(--Gray-60);
+  --Text-30: var(--Gray-50);
+}
